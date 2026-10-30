@@ -1,0 +1,272 @@
+
+/* Common Styles - All Pages */
+
+body {
+    font-family: Arial;
+    background: #f4f8f3;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #245c43;
+}
+
+header,
+.dashboard-header,
+.expense-header,
+.view-header,
+.budget-header,
+.savings-header,
+.reports-header {
+    background: #32845b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background: #32845b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #32845b;
+}
+
+footer {
+    background: #245c43;
+    color: white;
+    padding: 15px;
+}
+
+/* Home Page */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.content {
+    padding: 60px 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 8px;
+}
+
+/* Login Page */
+
+/* Registration Page */
+
+.form {
+    background: white;
+    width: 320px;
+    margin: 70px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.form button {
+    padding: 10px 25px;
+}
+
+.form a {
+    color: #32845b;
+}
+
+/* Dashboard Page */
+
+.dashboard-nav {
+    background: white;
+    padding: 15px;
+}
+
+.dashboard-nav a {
+    text-decoration: none;
+    color: #32845b;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 25px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.dashboard-card h3 {
+    color: #32845b;
+}
+
+.dashboard-card p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Add Expense Page */
+
+.expense-form,
+.edit-form,
+.budget-container {
+    background: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form textarea,
+.edit-form input,
+.edit-form select,
+.edit-form textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.expense-form button,
+.edit-form button,
+.budget-container button {
+    width: 100%;
+}
+
+.expense-form a,
+.edit-form a {
+    color: #32845b;
+}
+
+/* View Expenses Page */
+
+.view-container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.view-container input,
+.view-container select {
+    padding: 10px;
+    margin: 8px;
+}
+
+.view-table,
+.savings-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.view-table th,
+.view-table td,
+.savings-table th,
+.savings-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.view-table th,
+.savings-table th {
+    background: #32845b;
+    color: white;
+}
+
+/* Edit Expense Page */
+
+/* Monthly Budget Page */
+
+.budget-container {
+    text-align: center;
+}
+
+.budget-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+/* Savings Goals Page */
+
+.savings-container,
+.reports-container {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.savings-container input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.savings-container button {
+    width: 100%;
+}
+
+.savings-table {
+    margin-top: 25px;
+}
+
+/* Expense Reports Page */
+
+.reports-container {
+    text-align: center;
+}
+
+.reports-summary {
+    background: #eaf3e2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.chart-box {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
